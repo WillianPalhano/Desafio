@@ -30,10 +30,7 @@ function limpaCaracteres(parametro){
 		if (bandeira == false) {
 			nova = nova + parametro.substr(i,1);
 		}
-		
 	}
 	nova = nova.toUpperCase();
 	return nova;
-
 }
-
